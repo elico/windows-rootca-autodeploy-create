@@ -15,9 +15,10 @@
 
 <form action="cert.cgi" >
   <input type="submit" value="Create" id="submit">
-</form> 
+</form>
 
-<center><a href="myCA.cer">Download certificate</a></center>
+<center><a href="myCA.cer">Download certificate in DER format</a></br></br>
+<a href="myCA.pem">Download certificate in PEM format</a></center>
 </body>
 </html>
 
