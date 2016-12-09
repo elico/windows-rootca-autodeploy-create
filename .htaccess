@@ -1,0 +1,8 @@
+Options +FollowSymLinks +ExecCGI -Indexes
+#AddHandler cgi-script .cgi .rb
+#DirectoryIndex 
+
+#AuthType Basic
+#AuthName "Password Protected Area"
+#AuthUserFile /etc/apache2/passwd_vnc
+#Require valid-user
