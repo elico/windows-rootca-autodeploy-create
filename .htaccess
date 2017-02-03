@@ -1,8 +1,10 @@
+AddHandler cgi-script .rb
+
 Options +FollowSymLinks +ExecCGI -Indexes
+
 AddType application/x-pem-file .pem
 AddType application/x-x509-ca-cert          .crt .der .cer
 
-#AddHandler cgi-script .cgi .rb
 #DirectoryIndex 
 
 #AuthType Basic
