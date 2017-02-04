@@ -1,4 +1,5 @@
-AddHandler cgi-script .rb
+# Remember to enable cgi execution globally to the whole server or else the next lines won't do a thing.
+AddHandler cgi-script .rb .cgi
 
 Options +FollowSymLinks +ExecCGI -Indexes
 
